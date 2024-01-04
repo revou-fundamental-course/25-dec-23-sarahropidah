@@ -1,0 +1,139 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(93, 163, 242);
+    text-align: center;
+    color: white;
+}
+
+h1, h3, h4 {
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container div {
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #e6ede6;
+    border: 2px solid;
+    background-color: #ed90e8;
+    margin-top: 20px;
+}
+
+.katik-input {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 1px solid #ed90e8;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.katik-input:focus {
+    border: 1px solid rgb(237, 5, 202);
+}
+
+
+h2 {
+    color: white;
+    padding: 40px;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.rumus {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.rumus-desc {
+    font-weight: bold;
+    width: 20%;
+    padding: 10px;
+    text-align: justify;
+    font-size: 14px;
+    color: white;
+    border: 2px solid #ed90e8; 
+    margin: 0 auto;
+}
+
+
+.hitung {
+    margin-top: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    margin-bottom: 20px; /*atur jarak sesuai kebutuhan*/
+}
+
+.hasil-luas-segitiga {
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+
+button {
+    background-color: rgb(47, 186, 100);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(22, 160, 70);
+}
+
+button:focus {
+    background-color: rgb(19, 106, 65);
+}
+
+button:active {
+    background-color: rgb(6, 51, 22);
+    transform: translateY(10px);
+}
+
+.reset-button {
+    background-color: rgb(207, 84, 84);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;   
+}
+
+.reset-button:hover {
+    background-color:  rgb(212, 91, 91);
+}
+
+.reset-button:focus {
+    background-color: rgb(178, 51, 51);
+}
+
+.reset-button:active {
+    background-color: rgb(160, 32, 41);
+    transform: translateY(10px);
+}
